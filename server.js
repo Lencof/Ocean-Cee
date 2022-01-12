@@ -43,7 +43,7 @@ app.use(express.static(__dirname + '/routes/chatcord.js'));
 
 const index = require('./routes/index');
 const about = require('./routes/about');
-const chatcord = require('./routes/chatcord')
+const chatcord = require('./routes/chatcord');
 
 app.use('/', index);
 app.use('/about', about);
@@ -60,7 +60,7 @@ app.get('/chatcord', function(req, res) {
 // About page
 app.use((req, res) => {
   res.sendFile(__dirname + '/public/about.html');
-})
+});
 
 
 // create 404 page
