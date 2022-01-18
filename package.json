@@ -19,12 +19,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FSojitra/Node.js-Register-Login-App.git"
+    "url": ""
   },
-  "author": "foram sojitra",
+  "author": "Lencof",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/FSojitra/Node.js-Register-Login-App/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/FSojitra/Node.js-Register-Login-App#readme"
+  "homepage": ""
 }
