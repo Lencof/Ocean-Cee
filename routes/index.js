@@ -132,7 +132,6 @@ router.post('/forgetpass', (req, res, next) => {
 });
 
 
-// Тишко Page
 app.get('/about', function (req, res) {
 	res.send('about');
   });
