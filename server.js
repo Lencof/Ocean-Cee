@@ -82,7 +82,7 @@ app.get("/about", function (req, res) {
 
 
 // create 404 page
-const errorPg = path.join(__dirname, "./public/index.html"); //this is your error page
+const errorPg = path.join(__dirname, "./public/404.html"); //this is your error page
 
 // catch 404 and forward to error handler
 app.get("*", function (req, res) {
