@@ -8,7 +8,7 @@ const session = require('express-session');
 const MongoStore = require('connect-mongo')(session);
 
 // MongoDB
-const MongoDBURI = process.env.MONGO_URI || 'mongodb+srv://Adriol:Qmozet!jhdsfrte@cluster0.nmrhx.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
+const MongoDBURI = process.env.MONGO_URI || '';
 
 
 mongoose.connect(MongoDBURI, {
