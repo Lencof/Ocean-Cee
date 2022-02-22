@@ -94,6 +94,6 @@ app.get("*", function (req, res) {
 // listen on port 4000
 const port = 4000;
 
-app.listen(process.env.PORT || 4000, () => {
+app.listen(process.env.PORT || port, () => {
   console.log(`Express app listening on port ${port}`);
 });
