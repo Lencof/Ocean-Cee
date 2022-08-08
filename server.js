@@ -7,7 +7,7 @@ const mongoose = require('mongoose');
 const session = require('express-session');
 const MongoStore = require('connect-mongo')(session);
 
-// MongoDB
+// MongoDB env, commect
 const MongoDBURI = process.env.MONGO_URI || '';
 
 
